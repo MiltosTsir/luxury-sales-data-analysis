@@ -1,18 +1,18 @@
 # Luxury Sales Data Analysis in Excel
 
-## 🎯 Project Objective
+## Project Objective
 This project performs an **Exploratory Data Analysis (EDA)** on a fictional luxury sales dataset using **Microsoft Excel**.  
 The goal is to uncover sales trends, identify top-performing regions, and understand customer purchasing behavior.
 
 ---
 
-## 🧠 Background
+## Background
 The dataset simulates transactions from a fictional luxury retail company selling products like watches, jewelry, leather goods, and accessories through multiple sales channels (Online, Boutique, and Partner Stores).  
 All data is synthetic and anonymized — created for educational and portfolio purposes.
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 - **Rows:** 5,000 synthetic transactions  
 - **Columns:**  
   `order_id`, `order_date`, `customer_id`, `country`, `region`, `channel`,  
@@ -22,7 +22,7 @@ All data is synthetic and anonymized — created for educational and portfolio p
 
 ---
 
-## 🧹 Data Cleaning and Preparation
+## Data Cleaning and Preparation
 Data cleaning was performed directly in Excel to ensure accuracy before analysis.  
 The following checks and transformations were applied:
 
@@ -39,7 +39,7 @@ The following checks and transformations were applied:
 
 ---
 
-## 📈 Analysis and Dashboard
+## Analysis and Dashboard
 The data was analyzed using **Pivot Tables** and **Charts** in Excel.  
 Key analyses include:
 
@@ -56,7 +56,7 @@ Key analyses include:
 
 ---
 
-## 📊 Dashboard
+## Dashboard
 An interactive Excel Dashboard was created to visualize the findings.  
 It includes:
 
@@ -73,7 +73,7 @@ It includes:
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 - **Europe** generates the highest total revenue, primarily through **Boutique** sales.  
 - **Online Channel** drives high order volume but lower average prices due to discounts.  
 - **Peak sales** occur in **November and December**, showing strong holiday seasonality.  
@@ -82,13 +82,13 @@ It includes:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - **Microsoft Excel** — Data Cleaning, Pivot Tables, Charts, and Dashboard  
 - **GitHub** — Version control and project documentation
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 luxury-sales-data-analysis/
 │
@@ -106,7 +106,7 @@ luxury-sales-data-analysis/
 
 ---
 
-## 📘 Learning Outcomes
+## Learning Outcomes
 This project demonstrates the full lifecycle of a **data analysis process** using Excel:
 - Data cleaning and validation  
 - Exploratory data analysis  
