@@ -28,19 +28,25 @@ All analysis is performed directly in **Excel** using:
 - Dashboard creation and storytelling  
 
 ---
-
 ## Project Structure
 luxury-sales-data-analysis/
 │
-├── data/ # Dataset
-├── analysis/ # Excel files for each phase
-├── visuals/ # Charts and dashboards
-│ ├── descriptive/
-│ ├── diagnostic/
-│ ├── predictive/
-│ └── prescriptive/
+├── data/                  # Dataset
+│   └── luxury_sales_data.xlsx
+│
+├── analysis/              # Excel files for each phase
+│   ├── Descriptive.xlsx
+│   ├── Diagnostic.xlsx
+│   ├── Predictive.xlsx
+│   └── Prescriptive.xlsx
+│
+├── visuals/               # Charts and dashboards
+│   ├── descriptive/
+│   ├── diagnostic/
+│   ├── predictive/
+│   └── prescriptive/
+│
 └── README.md
-
 
 ---
 
