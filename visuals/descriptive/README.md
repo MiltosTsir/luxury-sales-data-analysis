@@ -1,5 +1,7 @@
 ## 1. Descriptive Analysis – “What Happened?”
 
+[📈 Open Excel Analysis](../../analysis/descriptive_analysis.xlsx)
+
 ### Purpose
 To describe the overall **sales performance** of the luxury retail dataset — focusing on *what happened* across regions, channels, brands, categories, time, and sales representatives.
 
