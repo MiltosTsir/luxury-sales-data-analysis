@@ -4,6 +4,8 @@
 This project performs an **Exploratory Data Analysis (EDA)** on a fictional luxury sales dataset using **Microsoft Excel**.  
 The goal is to uncover sales trends, identify top-performing regions, and understand customer purchasing behavior.
 
+This analysis helps luxury retailers understand how sales channels and regional demand impact overall performance, supporting **data-driven marketing and inventory planning decisions**.
+
 ---
 
 ## Background
@@ -27,32 +29,27 @@ Data cleaning was performed directly in Excel to ensure accuracy before analysis
 The following checks and transformations were applied:
 
 1. **Duplicate Check:**  
-   Used conditional formatting and COUNTIF to identify duplicate `order_id` values.
+   Used conditional formatting and COUNTIF to identify duplicate `order_id` values.  
 2. **Missing Values:**  
-   Verified completeness using Excel formulas to flag empty or invalid fields.
+   Verified completeness using Excel formulas to flag empty or invalid fields.  
 3. **Sales Calculation Validation:**  
-   Confirmed that `sales_amount = unit_price * quantity * (1 - discount)`.
+   Confirmed that `sales_amount = unit_price * quantity * (1 - discount)`.  
 4. **Outlier Detection:**  
-   Flagged `unit_price` values greater than 10,000 as potential outliers.
+   Flagged `unit_price` values greater than 10,000 as potential outliers.  
 5. **Data Consistency:**  
    Checked for valid region-country combinations (e.g., “France” → “Europe”).
 
 ---
 
 ## Analysis and Dashboard
-The data was analyzed using **Pivot Tables** and **Charts** in Excel.  
+The data was analyzed using **Pivot Tables**, **Slicers**, and **Charts** in Excel.  
 Key analyses include:
 
-- **Sales by Region and Channel**  
-  Identify which regions and sales channels generate the highest revenue.
-- **Top Products and Brands by Revenue**  
-  Determine best-selling categories and brand performance.
-- **Monthly Sales Trends**  
-  Track seasonal fluctuations in total sales volume.
-- **Average Discount by Channel**  
-  Compare pricing and discounting strategies across sales channels.
-- **Customer Order Frequency**  
-  Identify loyal and repeat customers.
+- **Sales by Region and Channel** — Identify which regions and sales channels generate the highest revenue.  
+- **Top Products and Brands by Revenue** — Determine best-selling categories and brand performance.  
+- **Monthly Sales Trends** — Track seasonal fluctuations in total sales volume.  
+- **Average Discount by Channel** — Compare pricing and discounting strategies across sales channels.  
+- **Customer Order Frequency** — Identify loyal and repeat customers.
 
 ---
 
@@ -60,16 +57,22 @@ Key analyses include:
 An interactive Excel Dashboard was created to visualize the findings.  
 It includes:
 
-- Total Revenue and Average Order Value (KPIs)
-- Sales by Region (Column Chart)
-- Channel Share (Pie Chart)
-- Monthly Trend (Line Chart)
-- Top 10 Brands by Sales (Bar Chart)
+- **KPIs Displayed:**  
+  - Total Revenue (€)  
+  - Average Order Value (€)  
+  - Total Orders  
+  - Average Discount (%)  
 
-### Example Layout
+- **Visual Components:**  
+  - Sales by Region (Column Chart)  
+  - Channel Share (Pie Chart)  
+  - Monthly Trend (Line Chart)  
+  - Top 10 Brands by Sales (Bar Chart)
+
+### Dashboard Preview
 ![Dashboard Preview](visuals/dashboard_preview.png)
 
-*(If viewing on GitHub, open the `/analysis` folder to download and explore the Excel dashboard.)*
+
 
 ---
 
@@ -82,14 +85,24 @@ It includes:
 
 ---
 
+## Additional Visuals
+
+| Visualization | Description |
+|----------------|-------------|
+| ![Top Brands](visuals/top_brands_chart.png) | Top 10 brands by total revenue |
+| ![Regional Sales](visuals/regional_sales.png) | Revenue distribution by region |
+| ![Monthly Trend](visuals/monthly_trend.png) | Monthly revenue trend 2020–2024 |
+
+---
+
 ## Tools Used
 - **Microsoft Excel** — Data Cleaning, Pivot Tables, Charts, and Dashboard  
-- **GitHub** — Version control and project documentation
+- **GitHub** — Version control and project documentation  
+
 
 ---
 
 ## Repository Structure
-
 luxury-sales-data-analysis/
 │
 ├── data/
@@ -99,7 +112,10 @@ luxury-sales-data-analysis/
 │ └── luxury_sales_dashboard.xlsx
 │
 ├── visuals/
-│ └── dashboard_preview.png
+│ ├── dashboard_preview.png
+│ ├── top_brands_chart.png
+│ ├── regional_sales.png
+│ └── monthly_trend.png
 │
 └── README.md
 
@@ -114,3 +130,7 @@ This project demonstrates the full lifecycle of a **data analysis process** usin
 - Business storytelling and insights presentation  
 
 ---
+
+## About this Project
+This project is part of my **Data Analysis Portfolio**.  
+It focuses on using **Excel** as a complete tool for end-to-end data analysis — from raw data cleaning to storytelling with dashboards.
