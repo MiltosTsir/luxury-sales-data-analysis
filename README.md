@@ -17,9 +17,16 @@ All data is synthetic and anonymized — created for educational and portfolio p
 ## Dataset Overview
 - **Rows:** 5,000 synthetic transactions  
 - **Columns:**  
-  `order_id`, `order_date`, `customer_id`, `country`, `region`, `channel`,  
-  `brand_code`, `product_category`, `product_code`, `unit_price`,  
-  `quantity`, `discount`, `sales_amount`, `sales_rep`
+
+| Original Field | New Field | Notes |
+|----------------|------------|--------|
+| `product_category` | `luxury_category` | Renamed and simplified |
+| `order_date` | `Order Date` | Improved readability |
+| `sales_amount` | `Revenue` | Clear financial terminology |
+| `discount` | `Discount %` | Clarified measurement |
+| `unit_price` | `Unit Price (€)` | Added currency symbol |
+| `channel` | (values updated) | “Boutique” → “Store” |
+
 - Data generated synthetically to simulate real-world luxury retail operations.
 
 ---
