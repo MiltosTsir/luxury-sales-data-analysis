@@ -50,7 +50,7 @@ luxury-sales-data-analysis/
 │   └── prescriptive/
 │
 └── README.md
-
+```
 ---
 
 ## Project Phases
