@@ -29,10 +29,13 @@ All analysis is performed directly in **Excel** using:
 
 ---
 ## Project Structure
+```text
 luxury-sales-data-analysis/
 │
-├── data/                  # Dataset
+├── data/
 │   └── luxury_sales_data.xlsx
+│
+└── README.md
 │
 ├── analysis/              # Excel files for each phase
 │   ├── Descriptive.xlsx
