@@ -45,11 +45,11 @@ luxury-sales-data-analysis/
 ---
 
 ## Project Phases
-- [Descriptive Analysis](visuals/descriptive/README.md)  
-- [Diagnostic Analysis](visuals/diagnostic/README.md)  
-- [Predictive Analysis](visuals/predictive/README.md)  
-- [Prescriptive Analysis](visuals/prescriptive/README.md)
 
+- [Descriptive Analysis](visuals/descriptive)
+- [Diagnostic Analysis](visuals/diagnostic)
+- [Predictive Analysis](visuals/predictive)
+- [Prescriptive Analysis](visuals/prescriptive)
 ---
 
 ## Tools Used
